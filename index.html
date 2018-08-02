@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Villacampo</title>
+    <link rel="icon" href="assets/media/ico-villacampo.png" type="image/ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/lightgallery/css/lightgallery.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/extras/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/green.css" media="screen" />
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5XrxMrcm0f5xpateRLApUCNzP9hmx4Qs"></script>
+  </head>
+  <body>
+    <nav id="nav-villacampo" class="navbar navbar-light green fixed-top" data-spy="affix" data-offset-top="50">
+        <div class="nav-cont">
+          <button class='navbar-toggler hidden-md-up pull-xs-right' data-target='#main-menu' data-toggle='collapse' type='button'><i class="fas fa-bars"></i></button>
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/media/logo.png" alt="">
+          </a>
+        </div>
+        
+        <div class="collapse navbar-toggleable-sm pull-xs-left pull-md-right" id="main-menu">
+          <ul class="nav nav-inline white-cont nav-opt">
+            <li class="nav-item dropdown">
+              <a class="nav-link link" href="#home" role="button" aria-haspopup="true" aria-expanded="false">Inicio</a>                  
+            </li>                                     
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Nosotros <i class="fas fa-caret-down"></i>
+              </a>
+              <div class="dropdown-menu">                      
+                <a class="dropdown-item link" href="#about">Misión y Visión</a>
+                <a class="dropdown-item link" href="#strengths">Fortalezas</a>
+              </div>
+            </li>             
+            <li class="nav-item dropdown">
+              <a class="nav-link link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Proyectos <i class="fas fa-caret-down"></i>
+              </a>
+              <div class="dropdown-menu">                      
+                <a class="dropdown-item link" href="#olmos">Olmos</a>
+                <a class="dropdown-item link" href="#jayanca">Jayanca</a>
+              </div> 
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link link" href="#contact" role="button" aria-haspopup="true" aria-expanded="false">Contacto</a>                  
+            </li>            
+          </ul>  
+        </div>
+    </nav>
+
+    <header id="home" class="pt-73">
+      <div class="video-container">
+        <div class="bannder-cont">
+          <div class="text">
+            <h1>Urbanización las Palmeras</h1>
+            <p class="subtitle">Jayanca</p>
+            <p>Te ofrecemos todas las comodidades para que brindes a tu familia un hogar seguro y propio donde vivir.</p>
+            <i class="fas fa-caret-down animated pulse infinite"></i>
+          </div>
+        </div>
+        <div class="play animated hidden">
+          <i class="far fa-play-circle"></i>
+        </div>
+        <img class="img-fluid" src="assets/media/condo.jpg" alt="">
+      </div>
+      <div class="vcontrols dgreen">
+        <ul>
+          <li><a href="javascript:void(0)">Olmos</a></li>
+          <li><a href="javascript:void(0)">Jayanca</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section id="about" class="absection green">
+      <div class="sfooter">
+        <div class="row vcenter">
+          <div class="col-md-4 col-sm-12 noPadding">
+            <div class="aboutCont tleft wow fadeIn animated" data-wow-delay="2s">
+                <h2 class="boldt mb-5">Valores</h2>
+                <p style="margin-bottom: 0;"><span class="boldt">Puntualidad:</span> Estar a tiempo en el lugar indicado <br/>
+                  <span class="boldt">Liderazgo:</span> Abarcar el mercado de una menera idonea y capaz <br/>
+                  <span class="boldt">Liderazgo:</span> Integrara la lrganización para que proceda de acuerdo a prámetros previamente establecidos
+                </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 noPadding">
+            <div class="about-item">
+              <img src="assets/media/logo_villacampo.jpg" class="award posabsolute wow zoomOut animated" data-wow-delay=".8s">
+              <img src="assets/media/award.png" class="award wow zoomIn animated" data-wow-delay="1s">
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 noPadding">
+            <div class="aboutCont tright wow fadeIn animated" data-wow-delay="2.5s">
+              <h2 class="boldt mb-5">Visión</h2>
+              <p id="vision" class="mb-30">
+                Mantener el liderazgo dentro del sector y obtener una mayor participación en nuestros servicios, generando las mejores rentabilidades para el cliente y para nuestra organizacón.
+              </p>
+              <h2 class="boldt mb-5">Misión</h2>
+              <p id="mission">
+                Ser una companía líder en el mercado inmobiliario, ofreciendo tranquilidad y seguridad a nuestros clientes, a través de la prestación de un servicio eficiente que exceda las expectativas del cliente, generando dentro de la organización estÃ¡ndares de calidad total reflejados en la organización, permitiendo el logro de un desarrollo sostenible en el largo plazo, estableciendo precios competitivos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="strengths" class="absection">
+      <div class="container">
+        <div class="row">
+          <h1 class="section-title mb-40 txgreen" >Fortalezas Villacampo</h1>
+          <div class="sgrid wow fadeIn animated" data-wow-delay=".2s">
+            <div class="scard green">
+              <div class="service-item ctitle txgreen">
+                <div class="icon-wrapper">
+                  <i class="fas fa-shield-alt pulse-shrink"></i>
+                </div>
+                <h2>Seguridad</h2>
+              </div>
+              <p>Somos una empresa comprometida en mejorar la calidad de vida de las personas.</p>
+            </div>
+          </div>
+          <div class="sgrid wow fadeIn animated" data-wow-delay=".6s">
+            <div class="scard dgreen">
+              <div class="service-item ctitle txdgreen">
+                <div class="icon-wrapper">
+                  <i class="fas fa-leaf pulse-shrink"></i>
+                </div>
+                <h2>Responsabilidad Ambiental</h2>
+              </div>
+              <p>Nuestros proyectos se caracterizan por contar con áreas verdes, etc.</p>
+            </div>
+          </div>
+          <div class="sgrid wow fadeIn animated" data-wow-delay="1s">
+            <div class="scard green">
+              <div class="service-item ctitle txgreen">
+                <div class="icon-wrapper">
+                  <i id="sicon" class="fas fa-street-view pulse-shrink"></i>
+                </div>
+                <h2>Desarrollo Social</h2>
+              </div>
+              <p>Nuestro beneficia a personas de bajos recursos, asesorándolas para ser financiadas por entidades sociales.</p>
+            </div>
+          </div>
+          <div class="sgrid wow fadeIn animated" data-wow-delay="1.4s">
+            <div class="scard dgreen">
+              <div class="service-item ctitle txdgreen">
+                <div class="icon-wrapper">
+                  <i class="far fa-comment-alt pulse-shrink"></i>
+                </div>
+                <h2>Enfoque al Cliente</h2>
+              </div>
+              <p>Creemos que el cliente debe entender en su totalidad los beneficios que conllevan nuestros proyectos (capacitaciones).</p>
+            </div>
+          </div>
+          <div class="sgrid wow fadeIn animated" data-wow-delay="1.8s">
+            <div class="scard green">
+              <div class="service-item ctitle txgreen">
+                <div class="icon-wrapper">
+                  <i class="fas fa-signal pulse-shrink"></i>
+                </div>
+                <h2>Eficiencia</h2>
+              </div>
+              <p>Nuestros proyectos se desarrollan de manera física en paralelo a la promoción.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="olmos">
+      <div id="ointro" class="pry-cont">
+        <div class="row odrcont">
+          <div class="col-lg-9 col-md-8 col-sm-12 media-pry">
+            <div class="video-pry wow zoomIn animated" data-wow-delay=".5s">
+              <div class="play-pry animated">
+                <i class="far fa-play-circle"></i>
+              </div>
+              <img class="img-fluid" src="assets/media/mall.jpeg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12 info-pry green">
+            <div class="text wow fadeIn animated" data-wow-delay="1.5s">
+              <h1>Olmos</h1>
+              <p class="description">Ciudades como Villa Olmos, se constituyen en mercados y centros de servicio y acopio, desarrollando industria en relación con el entorno agrícola o vinculadas con la tecnología e innovación que la base productiva requiere</p>
+              <p>Propiedades residenciales desde:</p>
+              <h3>S/.45,000</h3>
+              <a href="#contact" class="btn btn-outline btn-round btn-sm mt-30">Coordinar visita</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="ozonesdesc" class="zones-cont dgreen">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-12 nopadding">
+              <div class="service-item zones-pry">
+                <div class="wow fadeIn animated" data-wow-delay=".2s">
+                  <div class="icon-wrapper izones">
+                    <i class="fas fa-industry pulse-zones"></i>
+                  </div>
+                  <h2>Zona Industrial</h2>
+                </div>
+                <div class="zones-desc wow zoomIn animated" data-wow-delay="1.5s">
+                  <a href="#ozonesmap" class="btn btn-outline btn-round btn-sm fadeIn animated mt-25">Lotes Disponibles</a>
+                  <p class="fadeIn animated">Áreas urbanas destinadas predominantemente a la ubicación y funcionamiento de establecimientos de transformación de productos. En la planos de zonificación se consigna:13 Zona de Gran Industria son usos complementarios compatibles: 12 Zona de industria Liviana, ll Industria Elemental, C comercial en todos sus niveles, Campo Ferial, Grifo, lavadero, Balanza, CITE</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 nopadding">
+              <div class="service-item zones-pry">
+                <div class="wow fadeIn animated" data-wow-delay=".6s">
+                  <div class="icon-wrapper izones">
+                    <i class="fas fa-shopping-cart pulse-zones"></i>
+                  </div>
+                  <h2>Zona Comercial</h2>
+                </div>
+                <div class="zones-desc wow zoomIn animated" data-wow-delay="1.5s">
+                  <a href="#ozonesmap" class="btn btn-outline btn-round btn-sm fadeIn animated mt-25">Lotes Disponibles</a>
+                  <p class="fadeIn animated">Áreas urbanas destinadas a fundamentalmente a la ubicación y funcionamiento de establecimientos de compra-venta de productos y servicios. En la zonificación se consigna: Comercio Zonal; son usos complementarios compatibles:11-R Vivienda-Taller, CE Comercio Especializado, CM Comercio Metropolitano, Strip Center, Hospedaje, Terminal terrestre, Educación Secundaria/Tecnológica, Centro Cultural, Administrativo, Religioso, Plaza Cívica, Estacionamientos. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 nopadding">
+              <div class="service-item zones-pry">
+                <div class="wow fadeIn animated" data-wow-delay="1s">
+                  <div class="icon-wrapper izones">
+                    <i class="fas fa-home pulse-zones"></i>
+                  </div>
+                  <h2>Zona Residencial</h2>
+                </div>
+                <div class="zones-desc wow zoomIn animated" data-wow-delay="1.5s">
+                  <a href="#ozonesmap" class="btn btn-outline btn-round btn-sm fadeIn animated mt-25">Lotes Disponibles</a>
+                  <p class="fadeIn animated">Áreas urbanas destinadas predominantemente al uso de vivienda. En la zonificación se consigna: RDM zona de densidad media, son usos complementarios compatibles:RDA residencial de densidad alta, RDB residencial de densidad baja, CV comercio vecinal, Educación, Parques. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="ozonesmap" class="smap-section">
+        <div class="container">
+          <div class="row flex-smap">
+            <div class="col-lg-9 col-md-8 col-sm-12 nopadding">
+              <div id="oresmap" class="smap-container wow zoomIn animated" data-wow-delay=".5s"></div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 nopadding">
+              <div class="legend-cont wow fadeIn animated" data-wow-delay="1.5s">
+                <h3 class="mb-30">Zona Residencial</h3>
+                <div class="smap-info">
+                  <p class="">Área Lote</p>
+                  <h2 id="zarea" class="font-weight-bold"> - </h2>
+                </div>
+                <div class="legend">
+                  <div class="row">
+                    <div class="col-md-4 col-xs-4 dot">
+                      <div class="lcircle teal"></div>
+                      <p>LOTE <br/> DISPONIBLE</p>
+                    </div>
+                    <div class="col-md-4 col-xs-4 dot">
+                      <div class="lcircle orange"></div>
+                      <p>LOTE <br/> SEPARADO</p>
+                    </div>
+                    <div class="col-md-4 col-xs-4 dot">
+                      <div class="lcircle indigo"></div>
+                      <p>LOTE <br/> VENDIDO</p>
+                    </div>
+                  </div>
+                </div>
+                <a href="javascript:void(0)" class="btn btn-common btn-radius btn-sm mt-20"><i class="fa  fa-bookmark-o"></i>FICHA TÉCNICA</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="ogallery" class="section dgreen">
+        <div class="container">
+          <h1 class="section-title gright">Galería Olmos</h1>
+          <div class="wow fadeInUpQuick" data-wow-delay=".9s">
+              <div id="olmos-gallery" class="row">
+
+                <div class="client-item-wrapper">
+                  <figure class="img-item" data-src="img/olmos_obra/01-viv-mod-basico-villa_olmos.jpg" data-sub-html="<h4>MÓDULOS TECHO PROPIO</h4>">
+                    <img src="img/olmos_obra/01-viv-mod-basico-villa_olmos.jpg" alt="">
+                    <figcaption>
+                      <div class="details">
+                        <span><i class="fas fa-search"></i></span>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <p>MÓDULOS TECHO PROPIO</p>
+                </div>
+
+                <div class="client-item-wrapper">
+                  <figure class="img-item" data-src="img/olmos_obra/03-hospedaje-restaurant-01.jpg" data-sub-html="<h4>RESTAURANTE EN EL COMPLEJO DE HOSPEDAJE</h4>">
+                    <img src="img/olmos_obra/03-hospedaje-restaurant-01.jpg" alt="">
+                    <figcaption>
+                      <div class="details">
+                        <span><i class="fas fa-search"></i></span>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <p>RESTAURANTE EN EL COMPLEJO DE HOSPEDAJE</p>
+                </div>
+
+                <div class="client-item-wrapper">
+                  <figure class="img-item" data-src="img/olmos_obra/03-hospedaje-restaurant-01.jpg" data-sub-html="<h4>VISTA FRONTAL DE MÓDULOS TECHO PROPIO</h4>">
+                    <img src="img/olmos_obra/03-hospedaje-restaurant-01.jpg" alt="">
+                    <figcaption>
+                      <div class="details">
+                        <span><i class="fas fa-search"></i></span>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <p>VISTA FRONTAL DE MÓDULOS TECHO PROPIO</p>
+                </div>
+
+                <div class="client-item-wrapper">
+                  <figure class="img-item" data-src="img/olmos_obra/04-hospedaje-restaurant.jpg" data-sub-html="<h4>RESTAURANTE EN EL  COMPLEJO DE HOSPEDAJE</h4>">
+                    <img src="img/olmos_obra/04-hospedaje-restaurant.jpg" alt="">
+                    <figcaption>
+                      <div class="details">
+                        <span><i class="fas fa-search"></i></span>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <p>RESTAURANTE EN EL  COMPLEJO DE HOSPEDAJE</p>
+                </div>
+
+                <div class="client-item-wrapper">
+                  <figure class="img-item" data-src="img/olmos_obra/04-viv-mod-basico-villa_olmos.jpg" data-sub-html="<h4>VISTA POSTERIOR DE MÓDULOS TECHO PROPIO</h4>">
+                    <img src="img/olmos_obra/04-viv-mod-basico-villa_olmos.jpg" alt="">
+                    <figcaption>
+                      <div class="details">
+                        <span><i class="fas fa-search"></i></span>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <p>VISTA POSTERIOR DE MÓDULOS TECHO PROPIO</p>
+                </div>
+
+                <div class="client-item-wrapper">
+                  <figure class="img-item" data-src="img/olmos_obra/05-viv-mod-basico-villa_olmos.jpg" data-sub-html="<h4>VISTA FRONTAL DE MÓDULOS TECHO PROPIO</h4>">
+                    <img src="img/olmos_obra/05-viv-mod-basico-villa_olmos.jpg" alt="">
+                    <figcaption>
+                      <div class="details">
+                        <span><i class="fas fa-search"></i></span>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <p>VISTA FRONTAL DE MÓDULOS TECHO PROPIO</p>
+                </div>
+
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="jayanca">
+      <div id="jintro" class="pry-cont">
+        <div class="row odrcont">
+          <div class="col-lg-9 col-md-8 col-sm-12 media-pry">
+            <div class="video-pry wow zoomIn animated" data-wow-delay=".5s">
+              <div class="play-pry animated">
+                <i class="far fa-play-circle"></i>
+              </div>
+              <img class="img-fluid" src="assets/media/condo.jpeg" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-12 info-pry green">
+            <div class="text wow fadeIn animated" data-wow-delay="1.5s">
+              <h1>Jayanca</h1>
+              <p class="description">En la urbanización Las Palmeras contarás con dos parques llenos de juegos infantiles y una innovadora ciclovía-pasaje peatonal. Pero eso no es todo, pues el servicio de electrificación área, desagüe y agua potable también serán parte de tu hogar</p>
+              <p>Propiedades residenciales desde:</p>
+              <h3>S/.55,000</h3>
+              <p>Encuéntranos en: <br/>
+              Jayanca a la altura del curze la Viña</p>
+              <a href="#contact" class="btn btn-outline btn-round btn-sm mt-30">Coordinar visita</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="jzonesmap" class="smap-section">
+        <div class="container">
+          <div class="row flex-smap">
+            <div class="col-lg-9 col-md-8 col-sm-12 nopadding">
+              <div id="jresmap" class="smap-container wow zoomIn animated" data-wow-delay=".5s"></div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 nopadding">
+              <div class="legend-cont wow fadeIn animated" data-wow-delay="1.5s">
+                <h3 class="mb-30">Las Palmeras</h3>
+                <div class="smap-info">
+                  <p class="">Área Lote</p>
+                  <h2 id="jarea" class="font-weight-bold"> - </h2>
+                </div>
+                <div class="legend">
+                  <div class="row">
+                    <div class="col-md-4 col-xs-4 dot">
+                      <div class="lcircle teal"></div>
+                      <p>LOTE <br/> DISPONIBLE</p>
+                    </div>
+                    <div class="col-md-4 col-xs-4 dot">
+                      <div class="lcircle orange"></div>
+                      <p>LOTE <br/> SEPARADO</p>
+                    </div>
+                    <div class="col-md-4 col-xs-4 dot">
+                      <div class="lcircle indigo"></div>
+                      <p>LOTE <br/> VENDIDO</p>
+                    </div>
+                  </div>
+                </div>
+                <a href="javascript:void(0)" class="btn btn-common btn-radius btn-sm mt-20"><i class="fa  fa-bookmark-o"></i>FICHA TÉCNICA</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="jgallery" class="section green">
+        <div class="container">
+          <h1 class="section-title gright">Galería Jayanca</h1>
+          <div class="wow fadeInUpQuick" data-wow-delay=".9s">
+              <div id="jayanca-gallery" class="row">
+                
+                <div class="client-item-wrapper">
+                  <figure class="img-item" data-src="img/jayanca_obra/jayanca-obra-1.jpg" data-sub-html="<h4>Vista Modulos Techo propio frente al parque</h4>">
+                    <img src="img/jayanca_obra/jayanca-obra-1.jpg" alt="">
+                    <figcaption>
+                      <div class="details">
+                        <span><i class="fas fa-search"></i></span>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <p>Vista Modulos Techo propio frente al parque</p>
+                </div>
+
+                <div class="client-item-wrapper">
+                  <figure class="img-item" data-src="img/jayanca_obra/jayanca-obra-2.jpg" data-sub-html="<h4>Zona Recreativa</h4>">
+                    <img src="img/jayanca_obra/jayanca-obra-2.jpg" alt="">
+                    <figcaption>
+                      <div class="details">
+                        <span><i class="fas fa-search"></i></span>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <p>Zona Recreativa</p>
+                </div>
+
+                <div class="client-item-wrapper">
+                  <figure class="img-item" data-src="img/jayanca_obra/jayanca-obra-3.jpg" data-sub-html="<h4>Ciclovia</h4>">
+                    <img src="img/jayanca_obra/jayanca-obra-3.jpg" alt="">
+                    <figcaption>
+                      <div class="details">
+                        <span><i class="fas fa-search"></i></span>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <p>Ciclovia</p>
+                </div>
+
+                <div class="client-item-wrapper">
+                  <figure class="img-item" data-src="img/jayanca_obra/jayanca-obra-4.jpg" data-sub-html="<h4>Calles de la Urbanización</h4>">
+                    <img src="img/jayanca_obra/jayanca-obra-4.jpg" alt="">
+                    <figcaption>
+                      <div class="details">
+                        <span><i class="fas fa-search"></i></span>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <p>Calles de la Urbanización</p>
+                </div>
+
+                <div class="client-item-wrapper">
+                  <figure class="img-item" data-src="img/jayanca_obra/jayanca-obra-5.jpg" data-sub-html="<h4>Zona Recreativa</h4>">
+                    <img src="img/jayanca_obra/jayanca-obra-5.jpg" alt="">
+                    <figcaption>
+                      <div class="details">
+                        <span><i class="fas fa-search"></i></span>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <p>Zona Recreativa</p>
+                </div>
+
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-contact">
+      <div class="map-contact">
+        <div class="btn-cont">
+          <button id="infomap" class="btn btn-success btn-radius btn-sm"><i class="fas fa-info-circle"></i> Info</button>
+        </div>
+        <div id="info-text" class="info contact-info-section animated">
+          <div class="contact-widget office-location">
+            <address style="text-align: right;">
+              <span>ATENCIÓN:</span>
+              <p>Lunes - Viernes: 9.00 AM - 6.00 PM</p>
+            </address>
+            <address style="text-align: right;">
+              <p id="address" class="mb-0">Ca. Las Acacias 219</p>
+              <p id="phone" class="mb-0"></p>
+              <p><span id="email"></span></p>
+            </address>
+          </div>
+        </div>
+        <div id="map"></div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <h1 class="section-title mb-40" >Contacto</h1>
+          <form id="contactForm" method="post" class="shake wow fadeInUpQuick" data-wow-delay=".5s">
+            <div class="col-md-6 contact-form contact-info-section" style="padding-top: 2px;">
+              <div class="col-md-6 pl-0 pr-din">
+                <div class="form-group">
+                  <input type="text" id="name" name="name" placeholder="Nombres" class="form-control contact-control" required>
+                </div>
+              </div>
+              <div class="col-md-6 pl-0 pr-0">
+                <div class="form-group">
+                  <input type="text" id="lastname" name="lastname" placeholder="Apellidos" class="form-control contact-control" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="tel" id="phone" name="phone" placeholder="Teléfono" class="form-control contact-control" required>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Correo electrónico" class="form-control contact-control" required>
+              </div>
+            </div>
+            <div class="col-md-6 contact-form contact-info-section" style="padding-top: 2px;">
+              <div class="form-group">
+                <textarea id="message" name="message" placeholder="Mensaje" rows="9" class="form-control" required></textarea>
+              </div>
+              <div class="form-group infoForm"></div>
+              <button type="submit" class="btn btn-common btn-radius btn-md" style="float: right;"><i class="far fa-envelope"></i> Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="sfooter">
+        <div class="row section-footer">
+          <div class="footer-widget col-lg-2 col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1s">
+            <img src="assets/media/footer_villacampo.png" class="vlogo" alt="villacampo logo">
+          </div>
+          <div class="footer-widget col-lg-2 col-md-4 col-xs-12 wow fadeIn border" data-wow-delay="1.2s">
+            <div class="fcontact">
+              <h3 class="questions">
+                ¿Dudas o Consultas?
+              </h3>
+              <p style="margin-bottom: 0;">Estamos para ayudarte <br/>
+                ventas@villacampo.com.pe <br/>
+                074 321 995
+              </p>
+            </div>
+          </div>
+          <div class="footer-widget col-lg-2 col-md-4 col-xs-12 wow fadeIn border" data-wow-delay="1.4s">
+            <div class="requeriments">
+              <h2 style="margin-bottom: 20px;">Requisitos <br>
+              Techo Propio
+              </h2>
+              <h2>Requisitos <br>
+              TFC
+              </h2>
+            </div>
+          </div>
+          <div class="footer-widget col-lg-3 col-md-6 col-xs-12 wow fadeIn noPadding border" data-wow-delay="1.6s">
+            <div class="realState">
+              <img src="assets/media/real-state.png" alt="">
+              <h2>Asociación de<br>
+                Desarrolladores<br>
+                Inmobiliarios
+              </h2>
+            </div>
+          </div>
+          <div class="footer-widget col-lg-3 col-md-6 col-xs-12 wow fadeIn border" data-wow-delay="1.8s">
+            <div class="fcopy">
+              <p class="copyright-text" style="margin-bottom: 0;">Copyright © 2018. All right reserved. <br/>
+                Designed by <a href="#">Fotosíntesis</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <a href="#" class="back-to-top">
+      <i class="fa fa-angle-up">
+      </i>
+    </a>
+
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.mixitup.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/scroll-top.js"></script>
+    <script src="assets/js/raphael.min.js"></script>
+    <script src="assets/extras/lightgallery/js/lightgallery-all.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+  </body>
+</html>
